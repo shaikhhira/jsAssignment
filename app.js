@@ -1138,7 +1138,7 @@
 // console.log(a.parentNode);
 
 
-//ch58-67
+//ch52-57
 // function modal(e){
 //     var a=document.getElementById("modalImage");
 //     a.src=e.src;
