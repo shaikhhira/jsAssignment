@@ -1113,29 +1113,18 @@
 //     a.src=e.src;
 // }
 
-// function zoomIn(){
-
-//    var a=document.getElementById("para").value;
-//    console.log(a.this.style.fontSize=fontSize+10);
-// }
-// function zoomIn()
-// {
-//     var Page = document.getElementById('para');
-//     var zoom = parseInt(Page.style.zoom) + 10 +'%'
-//     Page.style.zoom = zoom;
-//     return false;
-// }
 
 
-// var fontSize = 10;
-// function zoomIn() {
-// 	fontSize += 10;
-// 	document.body.style.fontSize = fontSize + "px";
-// }
-// function zoomOut() {
-// 	fontSize -= 10;
-// 	document.body.style.fontSize = fontSize + "px";
-// }
+
+var fontSize = 10;
+function zoomIn() {
+	fontSize += 10;
+	document.body.style.fontSize = fontSize + "px";
+}
+function zoomOut() {
+	fontSize -= 10;
+	document.body.style.fontSize = fontSize + "px";
+}
 //chapter58-67
 
 // var a=document.getElementById("main-content");
